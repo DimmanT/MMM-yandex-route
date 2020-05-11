@@ -1,4 +1,7 @@
 # MMM-yandex-route
+ Russian readme available [here](https://github.com/DimmanT/MMM-yandex-route/blob/master/README_rus.md)
+ 
+ 
 ![](https://github.com/DimmanT/MMM-yandex-route/blob/master/Screenshot.png)
 
 
