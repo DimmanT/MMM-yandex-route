@@ -1,8 +1,18 @@
 # MMM-yandex-route
-![](//screenshot.png)
+![](https://github.com/DimmanT/MMM-yandex-route/blob/master/Screenshot.png)
+
+
  A module for [MagicMirror](https://github.com/MichMich/MagicMirror) designed for displaying routes on map, using Yandex API.
- Design is based on [MMM-google-route](https://github.com/mrdis/MMM-google-route)
- ## Using the module
+ Design is based on [MMM-google-route](https://github.com/mrdis/MMM-google-route) .
+
+
+ This module provides the following functions:
+ 
+ 1. Build three car routes from point 'origin' to point 'destination', using traffic information.
+ 2. Display builded routes on the map. The map will be autoscaled to show entire route.
+ 3. Show best route information, such as travel time and distance.
+ 
+## Using the module
  Clone this repository to modules directory:
  MagicMirror/modules/
  
@@ -27,13 +37,17 @@
 //other modules
 ```
  
-| Option | Description |
+| **Option** | **Description** |
 | ------------- | ------------- |
-| key | Yandex Maps API key |
+| key | [The Yandex-Maps API key](#yandex-map-api) |
 | origin |  Geocoordinates of start point |
 | destination | Geocoordinates of stop point |
-| refreshPeriod  | Period of refresh in minutes |
-| height | Height of the map in pixels |
-| width | Width of the map in pixels |
-| title | This title is showed above the map |
+| refreshPeriod  | The time (in minutes) between two route refreshes |
+| height | Height of the map |
+| width | Width of the map |
+| title | Title, that will be displayed above the map |
 
+## Yandex Map API
+You can obtain an api-key for Yandex-Maps at https://tech.yandex.ru/maps/
+
+To do this you should create developer account and email at yandex.
