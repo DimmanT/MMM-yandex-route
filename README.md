@@ -21,9 +21,19 @@
 		refreshPeriod:	5,		//5 minutes
 		height : "480px",		//height of map
 		width  : "720px",		//width of map
-		title  : "Название маршрута (Route title)"
+		title  : "Route title"
 	}
 },
 //other modules
 ```
  
+| Option | Description |
+| ------------- | ------------- |
+| key | Yandex Maps API key |
+| origin |  Geocoordinates of start point |
+| destination | Geocoordinates of stop point |
+| refreshPeriod  | Period of refresh in minutes |
+| height | Height of the map in pixels |
+| width | Width of the map in pixels |
+| title | This title is showed above the map |
+
